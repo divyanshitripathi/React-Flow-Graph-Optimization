@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/divyanshitripathi/React-Flow-Graph-Visualization/static/css/main.c25484b0.css",
+    "main.js": "/divyanshitripathi/React-Flow-Graph-Visualization/static/js/main.ac5f2cf9.js",
+    "static/js/488.6141d6f6.chunk.js": "/divyanshitripathi/React-Flow-Graph-Visualization/static/js/488.6141d6f6.chunk.js",
+    "index.html": "/divyanshitripathi/React-Flow-Graph-Visualization/index.html",
+    "main.c25484b0.css.map": "/divyanshitripathi/React-Flow-Graph-Visualization/static/css/main.c25484b0.css.map",
+    "main.ac5f2cf9.js.map": "/divyanshitripathi/React-Flow-Graph-Visualization/static/js/main.ac5f2cf9.js.map",
+    "488.6141d6f6.chunk.js.map": "/divyanshitripathi/React-Flow-Graph-Visualization/static/js/488.6141d6f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c25484b0.css",
+    "static/js/main.ac5f2cf9.js"
+  ]
+}
