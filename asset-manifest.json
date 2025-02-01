@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Flow-Graph-Optimization/static/css/main.c25484b0.css",
+    "main.js": "/React-Flow-Graph-Optimization/static/js/main.1ccea7ac.js",
+    "static/js/488.6141d6f6.chunk.js": "/React-Flow-Graph-Optimization/static/js/488.6141d6f6.chunk.js",
+    "index.html": "/React-Flow-Graph-Optimization/index.html",
+    "main.c25484b0.css.map": "/React-Flow-Graph-Optimization/static/css/main.c25484b0.css.map",
+    "main.1ccea7ac.js.map": "/React-Flow-Graph-Optimization/static/js/main.1ccea7ac.js.map",
+    "488.6141d6f6.chunk.js.map": "/React-Flow-Graph-Optimization/static/js/488.6141d6f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c25484b0.css",
+    "static/js/main.1ccea7ac.js"
+  ]
+}
