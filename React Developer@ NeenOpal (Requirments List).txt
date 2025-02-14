@@ -1,0 +1,148 @@
+React Developer@ NeenOpal
+(Note: Please make the final submission on this form: LINK)
+
+Task Overview
+
+Create an interactive graph visualization application using React Flow that allows users to manipulate and customize graph elements with undo/redo functionality.
+
+Technical Stack Requirements
+
+React.js
+Redux for state management
+React Flow library for graph visualization
+TypeScript
+
+Core Features Expected in the Solution
+
+Graph Visualization
+Initialize a graph with 10 nodes
+Each node should be draggable
+Nodes should be interconnected with edges
+Implement smooth animations for graph interactions
+
+Node Customization
+Color Modification
+Users should be able to select any node
+Provide a color picker to change node colors
+Color changes should be reflected immediately
+Store color history for undo/redo functionality
+Font Size Adjustment
+Implement controls to modify node text size
+Support standard font sizes (12px to 24px)
+Changes should be tracked for undo/redo
+Ensure text remains readable at all sizes
+
+Undo/Redo Functionality
+Implement undo button to revert last action
+Implement redo button to restore reverted actions
+Track the following actions:
+Color changes
+Font size modifications
+Node position changes
+Maintain a history stack of all modifications
+
+
+Technical Requirements
+
+State Management
+Use Redux for application state management
+Create separate reducers for:
+Graph data
+Node styling
+History management
+Implement action creators for all user interactions
+
+Data Structure
+```typescript
+interface Node {
+  id: string;
+  position: { x: number; y: number };
+  data: {
+    label: string;
+    color: string;
+    fontSize: number;
+  };
+}
+
+interface Edge {
+  id: string;
+  source: string;
+  target: string;
+}
+
+interface HistoryState {
+  past: Action[];
+  present: State;
+  future: Action[];
+}
+```
+Component Structure
+App
+GraphContainer
+ReactFlow Component
+NodeCustomizationPanel
+UndoRedoControls
+ColorPicker
+FontSizeControl
+
+
+Evaluation Criteria
+
+Required Features
+Functional graph with 10 interconnected nodes
+Working color customization for nodes
+Font size adjustment functionality
+Operational undo/redo system
+Proper Redux implementation
+Clean, maintainable code structure
+Bonus Features
+Performance optimization
+Custom node designs
+Edge customization options
+
+Development Guidelines
+
+Use modern React practices (hooks, functional components)
+Implement proper error handling
+Include comments for complex logic
+Follow Redux best practices
+Ensure code maintainability
+Include basic documentation
+
+Deliverables
+
+Source code in a Git repository
+README with:
+Setup instructions
+Available scripts
+Dependencies list
+Basic usage guide
+Working demo deployment (optional)
+
+Timeline
+Suggested completion time: 3-4 days
+Code review session after submission
+
+Submission
+Provide a GitHub repository link
+Include any necessary setup instructions
+Document any assumptions made
+List any third-party libraries used
+
+
+Technical Considerations
+
+Ensure proper React Flow implementation
+Handle graph layout responsively
+Implement efficient state updates
+Consider browser compatibility
+Optimize for performance
+
+Additional Notes
+
+Code quality and structure are important
+Consider edge cases in undo/redo functionality
+Ensure smooth user experience
+Follow React and Redux best practices
+Include proper error boundaries
+Consider implementing loading states
