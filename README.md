@@ -1,70 +1,43 @@
-# Getting Started with Graph Optimization with React Flow
+# React Flow Node Based Work Flow Editor with Redux and Undo/Redo
+This project was bootstrapped with [React-Flow]\
+📌 Features
+Select a node and update its color using a color picker.
+Modify the font size of the selected node using a dropdown.
+Changes in node position, color, and font size are tracked in Redux.
+Undo/Redo functionality for reversing and reapplying changes.
+Node movement is also tracked and can be undone or redone.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+🚀 `Getting Started`
+1️⃣ `Clone the repository and install required packages`\
+   .git clone https://github.com/your-username/your-repository.git\
+   .cd your-repository\
+   .npm install\
+2️⃣ `Start the Development Server`\
+    .npm start\
+    .Runs the app in the development mode.\
+    .Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
+    .The page will reload when you make changes.You may also see any lint errors in the console.\
+    
+3️⃣ `Set Up React Flow`\
+    .npm run build\
+    .Builds the app for production to the `build` folder.\
+    .It correctly bundles React in production mode and optimizes the build for the best performance.\
+    .The build is minified and the filenames include the hashes.\
+    .Your app is ready to be deployed!\
 
-In the project directory, you can run:
+4️⃣ Deployment `npm run deploy`\
+   .Deploy the app for production to the `GitHub Pages` folder.\
+   .It correctly Runs React in production mode.\
+   .Your app is ready to be used\
 
-### `npm start`
+🎮 Usage Guide\
+ 1. Select a Node by clicking on it.\
+ 2. Change Color using the color picker.\
+ 3. Change Font Size using the dropdown.\
+ 4. Move Nodes to different positions.\
+ 5. Undo/Redo changes using the respective buttons.\
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📸 Screenshots
+ ![image](https://github.com/user-attachments/assets/79fa800a-b9df-48b3-9569-f0d3cfc1f78b)
