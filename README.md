@@ -1,4 +1,4 @@
-# React Flow Graph Customization with Redux and Undo/Redo
+# React Flow Node Based Work Flow Editor with Redux and Undo/Redo
 This project was bootstrapped with [React-Flow]\
 📌 Features
 Select a node and update its color using a color picker.
