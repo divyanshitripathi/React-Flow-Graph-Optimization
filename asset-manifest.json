@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/React-Flow-Graph-Optimization/static/css/main.c25484b0.css",
-    "main.js": "/React-Flow-Graph-Optimization/static/js/main.1ccea7ac.js",
-    "static/js/488.6141d6f6.chunk.js": "/React-Flow-Graph-Optimization/static/js/488.6141d6f6.chunk.js",
-    "index.html": "/React-Flow-Graph-Optimization/index.html",
-    "main.c25484b0.css.map": "/React-Flow-Graph-Optimization/static/css/main.c25484b0.css.map",
-    "main.1ccea7ac.js.map": "/React-Flow-Graph-Optimization/static/js/main.1ccea7ac.js.map",
-    "488.6141d6f6.chunk.js.map": "/React-Flow-Graph-Optimization/static/js/488.6141d6f6.chunk.js.map"
+    "main.css": "/React-Flow-Node-Based-WorkFlow-Editor/static/css/main.e2951c29.css",
+    "main.js": "/React-Flow-Node-Based-WorkFlow-Editor/static/js/main.3217b241.js",
+    "static/js/714.a56e60f9.chunk.js": "/React-Flow-Node-Based-WorkFlow-Editor/static/js/714.a56e60f9.chunk.js",
+    "index.html": "/React-Flow-Node-Based-WorkFlow-Editor/index.html",
+    "main.e2951c29.css.map": "/React-Flow-Node-Based-WorkFlow-Editor/static/css/main.e2951c29.css.map",
+    "main.3217b241.js.map": "/React-Flow-Node-Based-WorkFlow-Editor/static/js/main.3217b241.js.map",
+    "714.a56e60f9.chunk.js.map": "/React-Flow-Node-Based-WorkFlow-Editor/static/js/714.a56e60f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c25484b0.css",
-    "static/js/main.1ccea7ac.js"
+    "static/css/main.e2951c29.css",
+    "static/js/main.3217b241.js"
   ]
 }
